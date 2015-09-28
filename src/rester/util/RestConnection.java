@@ -16,8 +16,8 @@ public class RestConnection {
 
     }
 
-    public String sendRestRequest(String urlAsString, String method, String payload) {
-
+    public String sendRestRequest(String urlAsString, String method, 
+            String payload) {
         String line;
         StringBuilder jsonString = new StringBuilder();
         try {
